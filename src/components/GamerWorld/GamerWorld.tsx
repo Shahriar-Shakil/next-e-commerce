@@ -33,7 +33,7 @@ export default function GamerWorld() {
                   <div
                     style={{
                       background:
-                        "url(/category/section-category-1.jpg) 0% 0% / cover no-repeat;",
+                        "url(/category/section-category-1.jpg) 0% 0% / cover no-repeat",
                     }}
                     className="category-card-wrappwer w-full h-full p-[30px]"
                   >
@@ -101,7 +101,7 @@ export default function GamerWorld() {
                       className="product-card-img w-full h-[300px]"
                       style={{
                         background:
-                          "url(/category/product-img-1.jpg) center center no-repeat;",
+                          "url(/category/product-img-1.jpg) center center no-repeat",
                       }}
                     ></div>
                     <div className="product-card-details px-[30px] pb-[30px] relative">
@@ -120,27 +120,32 @@ export default function GamerWorld() {
                           type="radio"
                           name="rating-2"
                           className="mask mask-star-2 bg-orange-400"
+                          onChange={() => {}}
                         />
                         <input
                           type="radio"
                           name="rating-2"
                           className="mask mask-star-2 bg-orange-400"
+                          onChange={() => {}}
                         />
                         <input
                           type="radio"
                           name="rating-2"
                           className="mask mask-star-2 bg-orange-400"
+                          onChange={() => {}}
                         />
                         <input
                           type="radio"
                           name="rating-2"
                           className="mask mask-star-2 bg-orange-400"
+                          onChange={() => {}}
                           checked
                         />
                         <input
                           type="radio"
                           name="rating-2"
                           className="mask mask-star-2 bg-orange-400"
+                          onChange={() => {}}
                         />
                       </div>
                       <Link
@@ -149,14 +154,14 @@ export default function GamerWorld() {
                       >
                         Xoggle aute et pariatur adipisicing nostrud et excepteur
                       </Link>
-                      <p className="price">
+                      <div className="price">
                         <span className="main-price text-gray-400 line-through font-semibold text-[18px]">
                           $27.27
                         </span>
                         <span className="offer-price text-red-400 font-semibold text-[18px] ml-2">
                           $18.73
                         </span>
-                      </p>
+                      </div>
                       {/* hover action */}
 
                       <div className="quick-access-btns flex flex-col space-y-2 absolute group-hover:right-4 -right-10 -top-52  transition-all duration-300 ease-in-out">
@@ -185,12 +190,10 @@ export default function GamerWorld() {
                       className="product-card-img w-full h-[300px]"
                       style={{
                         background:
-                          "url(/category/product-img-2.jpg) center center no-repeat;",
+                          "url(/category/product-img-2.jpg) center center no-repeat",
                       }}
                     ></div>
                     <div className="product-card-details px-[30px] pb-[30px] relative">
-                      {/* hover action */}
-
                       <div className="absolute w-full h-10 px-[30px] left-0 top-40 group-hover:top-[85px] transition-all duration-300 ease-in-out">
                         <button className="btn w-full btn-warning">
                           <div className="flex items-center space-x-3">
@@ -204,26 +207,31 @@ export default function GamerWorld() {
                           type="radio"
                           name="rating-2"
                           className="mask mask-star-2 bg-orange-400"
+                          onChange={() => {}}
                         />
                         <input
                           type="radio"
                           name="rating-2"
                           className="mask mask-star-2 bg-orange-400"
+                          onChange={() => {}}
                         />
                         <input
                           type="radio"
                           name="rating-2"
                           className="mask mask-star-2 bg-orange-400"
+                          onChange={() => {}}
                         />
                         <input
                           type="radio"
                           name="rating-2"
                           className="mask mask-star-2 bg-orange-400"
+                          onChange={() => {}}
                         />
                         <input
                           type="radio"
                           name="rating-2"
                           className="mask mask-star-2 bg-orange-400"
+                          onChange={() => {}}
                           checked
                         />
                       </div>
@@ -233,30 +241,32 @@ export default function GamerWorld() {
                       >
                         Geeky ipsum esse repreh est consequat
                       </Link>
-                      <p className="price">
+                      <div className="price">
                         <span className="main-price text-gray-400 line-through font-semibold text-[18px]">
                           $24.55
                         </span>
                         <span className="offer-price text-red-400 font-semibold text-[18px] ml-2">
                           $17.79
                         </span>
-                        {/* hover action */}
                         <div className="quick-access-btns flex flex-col space-y-2 absolute group-hover:right-4 -right-10 -top-52  transition-all duration-300 ease-in-out">
-                          <Link href="/">
-                            <span className="w-10 h-10 flex justify-center items-center bg-gray-200 rounded">
-                              <BiExpand size={24} />
-                            </span>
+                          <Link
+                            href="/"
+                            className="w-10 h-10 flex justify-center items-center bg-gray-200 rounded"
+                          >
+                            <BiExpand size={24} />
                           </Link>
-                          <Link href="/">
-                            <span className="w-10 h-10 flex justify-center items-center bg-gray-200 rounded">
-                              <AiOutlineHeart size={24} />
-                            </span>
+                          <Link
+                            href="/"
+                            className="w-10 h-10 flex justify-center items-center bg-gray-200 rounded"
+                          >
+                            <AiOutlineHeart size={24} />
                           </Link>
                         </div>
-                      </p>
+                      </div>
                     </div>
                   </div>
                 </div>
+
                 <div className="item">
                   <div
                     className="product-card-one w-full h-full bg-white relative group overflow-hidden"
@@ -268,7 +278,7 @@ export default function GamerWorld() {
                       className="product-card-img w-full h-[300px]"
                       style={{
                         background:
-                          "url(/category/product-img-3.jpg) center center no-repeat;",
+                          "url(/category/product-img-3.jpg) center center no-repeat",
                       }}
                     ></div>
                     <div className="product-card-details px-[30px] pb-[30px] relative">
@@ -285,26 +295,31 @@ export default function GamerWorld() {
                           type="radio"
                           name="rating-2"
                           className="mask mask-star-2 bg-orange-400"
+                          onChange={() => {}}
                         />
                         <input
                           type="radio"
                           name="rating-2"
                           className="mask mask-star-2 bg-orange-400"
+                          onChange={() => {}}
                         />
                         <input
                           type="radio"
                           name="rating-2"
                           className="mask mask-star-2 bg-orange-400"
+                          onChange={() => {}}
                         />
                         <input
                           type="radio"
                           name="rating-2"
                           className="mask mask-star-2 bg-orange-400"
+                          onChange={() => {}}
                         />
                         <input
                           type="radio"
                           name="rating-2"
                           className="mask mask-star-2 bg-orange-400"
+                          onChange={() => {}}
                           checked
                         />
                       </div>
@@ -314,14 +329,14 @@ export default function GamerWorld() {
                       >
                         Conjurica ea magna eiusmod esse cupt anim aliquip
                       </Link>
-                      <p className="price">
+                      <div className="price">
                         <span className="main-price text-gray-400 line-through font-semibold text-[18px]">
                           $32.55
                         </span>
                         <span className="offer-price text-red-400 font-semibold text-[18px] ml-2">
                           $22.79
                         </span>
-                      </p>
+                      </div>
                       <div className="quick-access-btns flex flex-col space-y-2 absolute group-hover:right-4 -right-10 -top-52  transition-all duration-300 ease-in-out">
                         <Link href="/">
                           <span className="w-10 h-10 flex justify-center items-center bg-gray-200 rounded">

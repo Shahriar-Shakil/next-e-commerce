@@ -18,7 +18,7 @@ export default function MiddleBar({}: Props) {
           <div className="flex justify-between items-center h-full">
             <div>
               <Link href="/">
-                <Image src="/logo.svg" width={152} height={36} />
+                <Image src="/logo.svg" width={152} height={36} alt="logo" />
               </Link>
             </div>
             <div className="w-[517px] h-[44px]">
