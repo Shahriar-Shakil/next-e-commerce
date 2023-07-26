@@ -28,7 +28,7 @@ export default function BestSeller() {
         {/* header end */}
         <div className="section-content">
           <div className="w-full">
-            <div className="grid xl:grid-cols-6 lg:grid-cols-5 sm:grid-cols-3 grid-cols-1 xl:gap-[30px] gap-5z">
+            <div className="grid xl:grid-cols-6 lg:grid-cols-5 sm:grid-cols-3 grid-cols-1 xl:gap-[30px] gap-5">
               <div
                 data-aos="fade-left"
                 data-aos-duration="500"
