@@ -4,6 +4,8 @@ import Header from "@/components/Header/Header";
 import FlashSell from "../components/FlashSelll/index";
 import TopSellingProducts from "@/components/TopSellingProducts/Index";
 import BestSeller from "@/components/BestSeller";
+import PopularSales from "@/components/PopularSales/Index";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -15,7 +17,9 @@ export default function Home() {
         <FlashSell />
         <TopSellingProducts />
         <BestSeller />
+        <PopularSales />
       </main>
+      <Footer />
     </div>
   );
 }

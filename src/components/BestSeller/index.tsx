@@ -10,7 +10,7 @@ export default function BestSeller() {
         <div className=" section-title flex justify-between items-center mb-5">
           <div className="">
             <h1 className="sm:text-3xl text-xl font-semibold text-black leading-none">
-              Top Selling Products
+              Best Seller
             </h1>
           </div>
           <div>
