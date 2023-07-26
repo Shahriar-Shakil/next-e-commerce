@@ -29,7 +29,11 @@ export default function BestSeller() {
         <div className="section-content">
           <div className="w-full">
             <div className="grid xl:grid-cols-6 lg:grid-cols-5 sm:grid-cols-3 grid-cols-1 xl:gap-[30px] gap-5z">
-              <div className="item w-full flex flex-col items-center aos-init aos-animate">
+              <div
+                data-aos="fade-left"
+                data-aos-duration="500"
+                className="item w-full flex flex-col items-center "
+              >
                 <div className="w-[170px] h-[170px] rounded-full bg-white flex justify-center items-center overflow-hidden mb-2">
                   <Image
                     src="/images/sellersLogo/saller-1.png"
@@ -42,7 +46,11 @@ export default function BestSeller() {
                   Shopno BD
                 </Link>
               </div>
-              <div className="item w-full flex flex-col items-center aos-init aos-animate">
+              <div
+                data-aos="fade-left"
+                data-aos-duration="400"
+                className="item w-full flex flex-col items-center "
+              >
                 <div className="w-[170px] h-[170px] rounded-full bg-white flex justify-center items-center overflow-hidden mb-2">
                   <Image
                     src="/images/sellersLogo/saller-2.png"
@@ -56,7 +64,11 @@ export default function BestSeller() {
                 </Link>
               </div>
 
-              <div className="item w-full flex flex-col items-center aos-init aos-animate">
+              <div
+                data-aos="fade-left"
+                data-aos-duration="300"
+                className="item w-full flex flex-col items-center "
+              >
                 <div className="w-[170px] h-[170px] rounded-full bg-white flex justify-center items-center overflow-hidden mb-2">
                   <Image
                     src="/images/sellersLogo/saller-3.png"
@@ -69,7 +81,11 @@ export default function BestSeller() {
                   Fusion X
                 </Link>
               </div>
-              <div className="item w-full flex flex-col items-center aos-init aos-animate">
+              <div
+                data-aos="fade-left"
+                data-aos-duration="200"
+                className="item w-full flex flex-col items-center "
+              >
                 <div className="w-[170px] h-[170px] rounded-full bg-white flex justify-center items-center overflow-hidden mb-2">
                   <Image
                     src="/images/sellersLogo/saller-4.png"
@@ -82,7 +98,11 @@ export default function BestSeller() {
                   Rikayi Rox
                 </Link>
               </div>
-              <div className="item w-full flex flex-col items-center aos-init aos-animate">
+              <div
+                data-aos="fade-left"
+                data-aos-duration="100"
+                className="item w-full flex flex-col items-center "
+              >
                 <div className="w-[170px] h-[170px] rounded-full bg-white flex justify-center items-center overflow-hidden mb-2">
                   <Image
                     src="/images/sellersLogo/saller-5.png"
@@ -95,7 +115,11 @@ export default function BestSeller() {
                   Habbriyi
                 </Link>
               </div>
-              <div className="item w-full flex flex-col items-center aos-init aos-animate">
+              <div
+                data-aos="fade-left"
+                data-aos-duration="100"
+                className="item w-full flex flex-col items-center "
+              >
                 <div className="w-[170px] h-[170px] rounded-full bg-white flex justify-center items-center overflow-hidden mb-2">
                   <Image
                     src="/images/sellersLogo/saller-6.png"

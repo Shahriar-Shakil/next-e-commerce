@@ -10,11 +10,13 @@ export default function FlashSell() {
       <div className="container-x mx-auto h-full">
         <div className="lg:flex xl:space-x-[30px] lg:space-x-5 items-center h-full">
           <div
+            data-aos="fade-right"
+            data-aos-once="false"
             style={{
               background:
                 "url(/images/cover-countdown.jpg) 0% 0% / cover no-repeat",
             }}
-            className="campaign-countdown lg:w-1/2 h-full w-full mb-5 lg:mb-0 aos-init aos-animate"
+            className="campaign-countdown lg:w-1/2 h-full w-full mb-5 lg:mb-0 "
           >
             <Link href="/">
               <div className="w-full xl:p-12 p-5">
@@ -79,11 +81,13 @@ export default function FlashSell() {
             </Link>
           </div>
           <div
+            data-aos="fade-left"
+            data-aos-once="false"
             style={{
               background:
                 "url(/images/download-app-cover.png) 0% 0% / cover no-repeat",
             }}
-            className="download-app flex-1 lg:h-full h-[430px] xl:p-12 p-5 aos-init aos-animate"
+            className="download-app flex-1 lg:h-full h-[430px] xl:p-12 p-5 "
           >
             <div className="flex flex-col h-full justify-between">
               <div className="get-app">

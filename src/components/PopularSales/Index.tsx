@@ -29,7 +29,10 @@ export default function PopularSales() {
           <div className="products-section w-full">
             <div className="grid lg:grid-cols-3 grid-cols-1 xl:gap-[30px] lg:gap-5">
               <div className="item-col">
-                <div className="product-card-row-two w-full aos-init aos-animate">
+                <div
+                  data-aos="fade-up"
+                  className="product-card-row-two w-full "
+                >
                   <div className="w-full h-[105px] bg-white border border-gray-200 px-5 ">
                     <div className="w-full h-full flex space-x-5 justify-center items-center">
                       <div className="w-[75px] h-[75px]">
@@ -61,7 +64,10 @@ export default function PopularSales() {
                     </div>
                   </div>
                 </div>
-                <div className="product-card-row-two w-full aos-init aos-animate">
+                <div
+                  data-aos="fade-up"
+                  className="product-card-row-two w-full "
+                >
                   <div className="w-full h-[105px] bg-white border border-gray-100 px-5 ">
                     <div className="w-full h-full flex space-x-5 justify-center items-center">
                       <div className="w-[75px] h-[75px]">
@@ -95,7 +101,10 @@ export default function PopularSales() {
                 </div>
               </div>
               <div className="item-col">
-                <div className="product-card-row-two w-full aos-init aos-animate">
+                <div
+                  data-aos="fade-up"
+                  className="product-card-row-two w-full "
+                >
                   <div className="w-full h-[105px] bg-white border border-gray-200 px-5 ">
                     <div className="w-full h-full flex space-x-5 justify-center items-center">
                       <div className="w-[75px] h-[75px]">
@@ -127,7 +136,10 @@ export default function PopularSales() {
                     </div>
                   </div>
                 </div>
-                <div className="product-card-row-two w-full aos-init aos-animate">
+                <div
+                  data-aos="fade-up"
+                  className="product-card-row-two w-full "
+                >
                   <div className="w-full h-[105px] bg-white border border-gray-100 px-5 ">
                     <div className="w-full h-full flex space-x-5 justify-center items-center">
                       <div className="w-[75px] h-[75px]">
@@ -161,7 +173,10 @@ export default function PopularSales() {
                 </div>
               </div>
               <div className="item-col">
-                <div className="product-card-row-two w-full aos-init aos-animate">
+                <div
+                  data-aos="fade-up"
+                  className="product-card-row-two w-full "
+                >
                   <div className="w-full h-[105px] bg-white border border-gray-200 px-5 ">
                     <div className="w-full h-full flex space-x-5 justify-center items-center">
                       <div className="w-[75px] h-[75px]">
@@ -193,7 +208,10 @@ export default function PopularSales() {
                     </div>
                   </div>
                 </div>
-                <div className="product-card-row-two w-full aos-init aos-animate">
+                <div
+                  data-aos="fade-up"
+                  className="product-card-row-two w-full "
+                >
                   <div className="w-full h-[105px] bg-white border border-gray-100 px-5 ">
                     <div className="w-full h-full flex space-x-5 justify-center items-center">
                       <div className="w-[75px] h-[75px]">

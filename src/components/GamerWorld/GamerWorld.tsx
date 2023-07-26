@@ -5,7 +5,11 @@ import { BsArrowRight } from "react-icons/bs";
 
 export default function GamerWorld() {
   return (
-    <div className="section-style-one category-products mb-[60px] ">
+    <div
+      data-aos="fade-up"
+      data-aos-once="false"
+      className="section-style-one category-products mb-[60px] "
+    >
       <div className="section-wrapper w-full ">
         <div className="container-x mx-auto">
           <div className=" section-title flex justify-between items-center mb-5">

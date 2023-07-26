@@ -32,7 +32,11 @@ export default function TopSellingProducts() {
           <div className="section-content w-full grid sm:grid-cols-2 grid-cols-1 xl:gap-[30px] gap-5 ">
             {/* item  */}
             <div className="item w-full">
-              <div className="product-row-card-style-one w-full h-[250px] bg-white group relative overflow-hidden aos-init aos-animate">
+              <div
+                data-aos="fade-right"
+                data-aos-once="false"
+                className="product-row-card-style-one w-full h-[250px] bg-white group relative overflow-hidden "
+              >
                 <div className="flex space-x-5 items-center w-full h-full lg:p-[30px] sm:p-5 p-2">
                   <div className="lg:w-1/2 w-1/3 h-full">
                     <Image
@@ -85,7 +89,11 @@ export default function TopSellingProducts() {
               </div>
             </div>
             <div className="item w-full">
-              <div className="product-row-card-style-one w-full h-[250px] bg-white group relative overflow-hidden aos-init aos-animate">
+              <div
+                data-aos="fade-right"
+                data-aos-once="false"
+                className="product-row-card-style-one w-full h-[250px] bg-white group relative overflow-hidden "
+              >
                 <div className="flex space-x-5 items-center w-full h-full lg:p-[30px] sm:p-5 p-2">
                   <div className="lg:w-1/2 w-1/3 h-full">
                     <Image
@@ -138,7 +146,11 @@ export default function TopSellingProducts() {
               </div>
             </div>
             <div className="item w-full">
-              <div className="product-row-card-style-one w-full h-[250px] bg-white group relative overflow-hidden aos-init aos-animate">
+              <div
+                data-aos="fade-right"
+                data-aos-once="false"
+                className="product-row-card-style-one w-full h-[250px] bg-white group relative overflow-hidden "
+              >
                 <div className="flex space-x-5 items-center w-full h-full lg:p-[30px] sm:p-5 p-2">
                   <div className="lg:w-1/2 w-1/3 h-full">
                     <Image
@@ -191,7 +203,11 @@ export default function TopSellingProducts() {
               </div>
             </div>
             <div className="item w-full">
-              <div className="product-row-card-style-one w-full h-[250px] bg-white group relative overflow-hidden aos-init aos-animate">
+              <div
+                data-aos="fade-right"
+                data-aos-once="false"
+                className="product-row-card-style-one w-full h-[250px] bg-white group relative overflow-hidden "
+              >
                 <div className="flex space-x-5 items-center w-full h-full lg:p-[30px] sm:p-5 p-2">
                   <div className="lg:w-1/2 w-1/3 h-full">
                     <Image

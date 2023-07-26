@@ -12,7 +12,7 @@ export default function HeroSection({}: Props) {
         <div className="container-x mx-auto">
           <div className="main-wrapper w-full">
             <div className="banner-card xl:flex xl:space-x-[30px] xl:h-[600px]  mb-[30px]">
-              <div className="xl:w-[740px] w-full h-full">
+              <div data-aos="fade-right" className="xl:w-[740px] w-full h-full">
                 <Link href="/">
                   <Image
                     src="/banners/banner-1.png"
@@ -24,7 +24,7 @@ export default function HeroSection({}: Props) {
                 </Link>
               </div>
               <div className="flex-1 flex xl:flex-col flex-row xl:space-y-[30px] h-full ">
-                <div className="w-full xl:h-1/2">
+                <div data-aos="fade-left" className="w-full xl:h-1/2">
                   <Link href="/">
                     <Image
                       src="/banners/banner-2.png"
@@ -35,7 +35,7 @@ export default function HeroSection({}: Props) {
                     />
                   </Link>
                 </div>
-                <div className="w-full xl:h-1/2">
+                <div data-aos="fade-left" className="w-full xl:h-1/2">
                   <Link href="/">
                     <Image
                       src="/banners/banner-3.png"
