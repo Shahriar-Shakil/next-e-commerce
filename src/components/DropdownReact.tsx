@@ -13,7 +13,7 @@ const DropdownReact = ({ options }: Props) => {
   const [open, setOpen] = useState(Boolean);
 
   //close the dropdown when clicking outside the referenced element
-  const ref = useRef();
+  const ref = React.useRef() as React.MutableRefObject<HTMLInputElement>;
   useOnClickOutside(ref, () => setOpen(false));
 
   //onclick handler when clicking a menu item
@@ -44,7 +44,7 @@ const DropdownReact = ({ options }: Props) => {
           tabIndex={0}
           // add hidden class when the dropdown is not open
           className={cn({
-            "dropdown-content menu p-2 shadow bg-base-200 rounded-box w-52 z-50":
+            "dropdown-content menu p-2 shadow bg-base-200 rounded-box w-52 z-":
               true,
             hidden: !open,
           })}
