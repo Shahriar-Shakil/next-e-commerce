@@ -8,7 +8,7 @@ import { AiOutlineHeart } from "react-icons/ai";
 
 export default function TopSellingProducts() {
   return (
-    <div className="section-wrapper w-full ">
+    <div className="section-wrapper w-full mb-[60px]">
       <div className="container-x mx-auto">
         <div className=" section-title flex justify-between items-center mb-5">
           <div className="">

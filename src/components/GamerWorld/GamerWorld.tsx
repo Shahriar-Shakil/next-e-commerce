@@ -101,7 +101,7 @@ export default function GamerWorld() {
                       className="product-card-img w-full h-[300px]"
                       style={{
                         background:
-                          "url(/category/product-img-1.jpg) center center no-repeat",
+                          "url(/images/products/product-img-1.jpg) center center no-repeat",
                       }}
                     ></div>
                     <div className="product-card-details px-[30px] pb-[30px] relative">
@@ -190,7 +190,7 @@ export default function GamerWorld() {
                       className="product-card-img w-full h-[300px]"
                       style={{
                         background:
-                          "url(/category/product-img-2.jpg) center center no-repeat",
+                          "url(/images/products/product-img-2.jpg) center center no-repeat",
                       }}
                     ></div>
                     <div className="product-card-details px-[30px] pb-[30px] relative">
@@ -278,7 +278,7 @@ export default function GamerWorld() {
                       className="product-card-img w-full h-[300px]"
                       style={{
                         background:
-                          "url(/category/product-img-3.jpg) center center no-repeat",
+                          "url(/images/products/product-img-3.jpg) center center no-repeat",
                       }}
                     ></div>
                     <div className="product-card-details px-[30px] pb-[30px] relative">
