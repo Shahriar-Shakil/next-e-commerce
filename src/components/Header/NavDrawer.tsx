@@ -33,9 +33,9 @@ export default function NavDrawer({}: Props) {
                 <BiAlignLeft size={24} />
               </label>
             </div>
-            <div className="drawer-side">
+            <div className="drawer-side z-50 h-full">
               <label htmlFor="my-drawer" className="drawer-overlay"></label>
-              <div className="menu p-4 w-60 h-full bg-white text-base-content">
+              <ul className="menu p-4 w-60 h-full bg-white text-base-content ">
                 {/* Sidebar content here */}
                 <div className="flex justify-between items-center">
                   <div className="flex space-x-5 items-center">
@@ -116,7 +116,7 @@ export default function NavDrawer({}: Props) {
                     </ul>
                   </TabPanel>
                 </Tabs>
-              </div>
+              </ul>
             </div>
           </div>
         </div>
